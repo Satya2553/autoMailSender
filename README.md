@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Automated Email Sender (Python, MIME, SMTP)</title>
-</head>
 <body>
   <h1>Automated Email Sender (Python, MIME, SMTP)</h1>
   
