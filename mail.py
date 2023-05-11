@@ -9,9 +9,9 @@ password = "" //enter your password
 message = MIMEMultipart()
 message['From'] = sender_email
 message['To'] = receiver_email
-message['Subject'] = "Hello"
+message['Subject'] = "Enter the subject of mail here"
 
-body = "hiii..."
+body = "Enter the body of the message"
 message.attach(MIMEText(body, 'plain'))
 
 session = smtplib.SMTP('smtp.gmail.com', 587)
